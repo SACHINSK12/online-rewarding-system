@@ -58,12 +58,14 @@ $baseurl = "http://" . $host . $folderName;
                     </li>
                     <li class="nav-link text-liner p-half"><a
                             href="<?php echo $baseurl ?>pages/contact-us.php">Contact</a></li>
+                     <li class="nav-link text-liner p-half"><a
+                            href="<?php echo $baseurl ?>pages/contact-us.php">Rewards</a></li>
                 </ul>
             </div>
             <div class="search-filter">
                 <form action="">
                     <input type="search" name="" id="" class="search-control"
-                        placeholder="Complete your search here...">
+                        placeholder="Search here...">
                     <button type="submit" class="search-btn search-btn-primary"><i
                             class="fa-solid fa-magnifying-glass"></i></button>
                 </form>

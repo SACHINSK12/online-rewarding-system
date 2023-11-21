@@ -86,12 +86,6 @@
 </script>
 <script src="<?php echo $baseurl ?>js/main.js"></script>
 <script src="<?php echo $baseurl ?>js/validation.js"></script>
-
-
-<?php
-$ajaxJsPath = $_SERVER['DOCUMENT_ROOT'] . $folderName . "pages/layout/ajaxJS.php";
-include_once($ajaxJsPath);
-?>
 </body>
 
 </html>
